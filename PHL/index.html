@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular média</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <form method="POST" action="./calcular.php">
+        <h1>Calcular o valor</h1>
+        <label for="nomcidadeOrigeme" >Cidade de origem</label>
+        <input id="cidadeOrigem" name="cidadeOrigem" />
+
+        <label for="cidadeDestino">Cidade de Destino</label>
+        <input id="cidadeDestino" name="cidadeDestino" />
+
+        <label for="quantidadeKm">Quantidade de Km: </label>
+        <input id="quantidadeKm" name="quantidadeKm" />
+
+        <label for="quantidadePedagios">Quantidade de Pedágios: </label>
+        <input id="quantidadePedagios" name="quantidadePedagios" />
+
+        <button>Calcular</button>
+    </form>
+</body>
+</html>
