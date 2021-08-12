@@ -50,6 +50,13 @@ input {
     margin-bottom: 10px;
 }
 
+.cargos{
+    width: 150px;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+}
+
 button {
     width: 100%;
     background-color: transparent;

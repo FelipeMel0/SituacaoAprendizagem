@@ -5,7 +5,6 @@ if(isset($_REQUEST["nome"]) && isset($_REQUEST["salario"]) && isset($_REQUEST["c
     $salario = $_REQUEST["salario"];
     $cargos = $_REQUEST["cargos"];
     
-   
     if($salario > 5000){
         $total = $salario * 110/100;
         echo "<h1>O $nome passará a receber R$$total, no cargo de $cargos</h1>";
