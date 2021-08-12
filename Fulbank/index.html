@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fulbank</title>
+</head>
+
+<body>
+    <form action="calcular.php">
+        <div class="divNome">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" class="inputNome">
+        </div>
+
+        <div class="divSalario">
+            <label for="salario">Salário:</label>
+            <input type="text" name="salario" class="inputSalario">
+        </div>
+
+        <div class="divGenero">
+            <label for="">Gênero:</label>
+            <input type="radio" name="opcoes"> Masculino
+            <input type="radio" name="opcoes"> Feminino
+            <input type="radio" name="opcoes"> Outro
+        </div>
+
+        <div class="divCargo">
+            <label for="cargos">Cargo:</label>
+            <select name="cargos" id="cargos">
+                <option value="lixo">Lixo</option>
+                <option value="outroLixo">Outro lixo</option>
+                <option value="superLixo">Super lixo</option>
+            </select>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+</body>
+
+</html>
