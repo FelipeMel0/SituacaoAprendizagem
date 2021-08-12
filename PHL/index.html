@@ -12,16 +12,16 @@
     <form method="POST" action="./calcular.php">
         <h1>Calcular o valor</h1>
         <label for="nomcidadeOrigeme" >Cidade de origem</label>
-        <input id="cidadeOrigem" name="cidadeOrigem" />
+        <input id="cidadeOrigem" name="cidadeOrigem" required/>
 
         <label for="cidadeDestino">Cidade de Destino</label>
-        <input id="cidadeDestino" name="cidadeDestino" />
+        <input id="cidadeDestino" name="cidadeDestino" required/>
 
         <label for="quantidadeKm">Quantidade de Km: </label>
-        <input id="quantidadeKm" name="quantidadeKm" />
+        <input id="quantidadeKm" name="quantidadeKm" required type="number" min="0"/>
 
         <label for="quantidadePedagios">Quantidade de Pedágios: </label>
-        <input id="quantidadePedagios" name="quantidadePedagios" />
+        <input id="quantidadePedagios" name="quantidadePedagios" required type="number" min="0"/>
 
         <button>Calcular</button>
     </form>
