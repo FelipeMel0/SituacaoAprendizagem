@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 <style>
     body {
         display: flex;
@@ -7,6 +8,7 @@
         height: 100%;
         overflow-y: hidden;
         font-family: 'Roboto Condensed', sans-serif;
+        color: white;
         
     }
 </style>
@@ -22,7 +24,7 @@ if(isset($_REQUEST["nomeCliente"]) && isset($_REQUEST["endereco"]) && isset($_RE
 
         echo "<p style='font-size: 25px; font-weight: bold; margin-bottom: 5px;'>Conta de luz de $nomeCliente</p>";
         echo "<br>";
-        echo "<p style='font-size: 15px;'>$endereco";
+        echo "<p style='font-size: 15px; margin-bottom: 15px;'>$endereco";
         echo "<p style='font-size: 25px; color: red;'>Consumo: $kwh kWh </p>";
         echo "<br>";
         echo "Valor a pagar: ";
@@ -34,8 +36,8 @@ if(isset($_REQUEST["nomeCliente"]) && isset($_REQUEST["endereco"]) && isset($_RE
 
         echo "<p style='font-size: 25px; font-weight: bold;'>Conta de luz de $nomeCliente</p>";
         echo "<br>";
-        echo "<p style='font-size: 15px;'>$endereco";
-        echo "<p style='font-size: 25px; color: yellowgreen;'>Consumo: $kwh kWh </p>";
+        echo "<p style='font-size: 15px; margin-bottom: 15px;'>$endereco";
+        echo "<p style='font-size: 25px; color: rgb(211, 245, 143);'>Consumo: $kwh kWh </p>";
         echo "<br>";
         echo "Valor a pagar: ";
         echo "<p style= 'font-size: 40px'>R$$valor</p>";
