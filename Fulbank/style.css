@@ -38,6 +38,7 @@ input {
     padding: 5px;
     margin-bottom: 10px;
     border: 2px solid black;
+    outline: none;
 }
 
 .inputSalario {
@@ -45,6 +46,7 @@ input {
     padding: 5px;
     margin-bottom: 10px;
     border: 2px solid black;
+    outline: none;
 }
 
 .divGenero {
@@ -57,6 +59,7 @@ input {
     font-size: 15px;
     color: rgb(66, 66, 66);
     user-select: none;
+    outline: none;
 }
 
 button {

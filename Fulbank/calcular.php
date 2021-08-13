@@ -6,6 +6,7 @@
         font-family: 'Roboto Condensed', sans-serif;
         color: white;
         background-color: rgb(255, 173, 20);
+        padding: 15px;
     }
 </style>
 <?php
@@ -23,4 +24,7 @@ if (isset($_REQUEST["nome"]) && isset($_REQUEST["salario"]) && isset($_REQUEST["
         $total = $salario * 120 / 100;
         echo "<h1>A partir de alguns cálculos, $nome passará a receber R$$total, no cargo de $cargos. Aparentemente você também é do gênero '$genero'. Maneiro 👍 </h1>";
     }
+}
+else{
+    echo "<h1>Você não preencheu os campos corretamente</h1>";
 }
