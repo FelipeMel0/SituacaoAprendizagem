@@ -13,7 +13,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     /* background-image: linear-gradient(#ccc, white); */
     background-color: rgb(255, 173, 20);
-    
 }
 
 form {
@@ -22,7 +21,7 @@ form {
     border-radius: 15px;
     box-shadow: 5px 10px 20px 5px rgba(0, 0, 0, 0.562);
     padding: 30px;
-    background-color: white; 
+    background-color: white;
 }
 
 h1 {
@@ -34,23 +33,23 @@ input {
     font-size: 15px;
 }
 
-.inputNome{
+.inputNome {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
 }
 
-.inputSalario{
+.inputSalario {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
 }
 
-.divGenero{
+.divGenero {
     margin-bottom: 10px;
 }
 
-.cargos{
+.cargos {
     width: 150px;
     padding: 5px;
     font-size: 15px;
