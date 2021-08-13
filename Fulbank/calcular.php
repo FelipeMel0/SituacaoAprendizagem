@@ -5,7 +5,7 @@
         justify-content: center;
         font-family: 'Roboto Condensed', sans-serif;
         color: white;
-        background-color: rgb(255, 173, 20);
+        background-color: rgb(255, 173, 20); 
     }
 </style>
 <?php
