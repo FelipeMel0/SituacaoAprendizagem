@@ -18,13 +18,14 @@ if (isset($_REQUEST["nome"]) && isset($_REQUEST["salario"]) && isset($_REQUEST["
     $genero = $_REQUEST["opcoes"];
 
     if ($salario > 5000) {
-        $total = $salario * 110 / 100;
+        $total = $salario * 1.1;
         echo "<h1>A partir de alguns cálculos, $nome passará a receber R$$total, no cargo de $cargos. Aparentemente você também é do gênero '$genero'. Maneiro 👍</h1>";
     } else {
-        $total = $salario * 120 / 100;
+        $total = $salario * 1.2;
         echo "<h1>A partir de alguns cálculos, $nome passará a receber R$$total, no cargo de $cargos. Aparentemente você também é do gênero '$genero'. Maneiro 👍 </h1>";
     }
 }
 else{
     echo "<h1>Você não preencheu os campos corretamente</h1>";
 }
+?>

@@ -1,5 +1,35 @@
+<?php
+
+//declarando o vetor
+$cargos = [
+    "Gerente de Produtos",
+    "Gerente de Projetos",
+    "Desenvolvedor Back-End",
+    "Desenvolvedor Front-End",
+];
+
+//adicionando um elemento no vetor
+$cargos[] = "DBA";
+$cargos[] = "Design UI/UX";
+$cargos[] = "QA";
+$cargos[] = "Engenheiro de Software";
+$cargos[] = "Arquiteto";
+$cargos[] = "Analista de Sistemas";
+$cargos[] = "DevOps";
+
+//excluindo uma posição do vetor
+// unset($cargos[0]);
+
+
+//imprimindo o vetor na tela
+// print_r($cargos);
+
+// die;
+
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -23,7 +53,7 @@
         <div class="divGenero">
             <label for="opcoes">Gênero:</label>
 
-            <input type="radio" name="opcoes" value="Masculino" id="masc"> Masculino
+            <input type="radio" name="opcoes" value="Masculino"> Masculino
             <input type="radio" name="opcoes" value="Feminino"> Feminino
             <input type="radio" name="opcoes" value="Outro"> Outro
 
@@ -33,11 +63,11 @@
             <label for="cargos">Cargo:</label>
             <select name="cargos" id="cargos" class="cargos">
                 <option selected disabled>Selecione</option>
-                <option>Gerente de Projetos</option>
-                <option>Desenvolvedor Back-End</option>
-                <option>Desenvolvedor Front-End</option>
-                <option>Arquiteto de Software</option>
-                <option>DBA</option>
+                <?php
+                    foreach($cargos as $abobrinha){
+                        echo "<option>$abobrinha</option>";
+                    }
+                ?>
             </select>
         </div>
 
